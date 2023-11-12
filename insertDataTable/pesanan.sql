@@ -1,0 +1,64 @@
+INSERT INTO PESANAN(
+    PELANGGAN_ID,
+    TANGGAL,
+    STATUS
+) VALUES (
+    1,
+    NOW(),
+    'Delivered'
+),
+(
+    2,
+    NOW(),
+    'Delivered'
+),
+(
+    3,
+    NOW(),
+    'Delivered'
+),
+(
+    4,
+    NOW(),
+    'Delivered'
+),
+(
+    5,
+    NOW(),
+    'Delivered'
+),
+(
+    6,
+    NOW(),
+    'Delivered'
+),
+(
+    7,
+    NOW(),
+    'Delivered'
+),
+(
+    8,
+    NOW(),
+    'Delivered'
+),
+(
+    9,
+    NOW(),
+    'Delivered'
+),
+(
+    10,
+    NOW(),
+    'Delivered'
+),
+(
+    11,
+    NOW(),
+    'Delivered'
+);
+
+SELECT
+    *
+FROM
+    PESANAN;

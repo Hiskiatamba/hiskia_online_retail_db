@@ -1,0 +1,76 @@
+INSERT INTO PEMBAYARAN (
+    PELANGGAN_ID,
+    METODE_PEMBAYARAN,
+    TOTAL_PEMBAYARAN,
+    TANGGAL
+) VALUES (
+    1,
+    'cash',
+    3000000,
+    NOW()
+),
+(
+    2,
+    'transfer',
+    3000000,
+    NOW()
+),
+(
+    3,
+    'cash',
+    3080000,
+    NOW()
+),
+(
+    4,
+    'cash',
+    45000000,
+    NOW()
+),
+(
+    5,
+    'transfer',
+    3500000,
+    NOW()
+),
+(
+    6,
+    'transfer',
+    7000000,
+    NOW()
+),
+(
+    7,
+    'cash',
+    5000000,
+    NOW()
+),
+(
+    8,
+    'cash',
+    3000000,
+    NOW()
+),
+(
+    9,
+    'cash',
+    3800000,
+    NOW()
+),
+(
+    10,
+    'cash',
+    4000000,
+    NOW()
+),
+(
+    11,
+    'cash',
+    12000000,
+    NOW()
+);
+
+SELECT
+    *
+FROM
+    PEMBAYARAN;
