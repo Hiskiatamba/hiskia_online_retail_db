@@ -1,0 +1,3 @@
+DELETE FROM produk
+WHERE
+    ID = 10;
