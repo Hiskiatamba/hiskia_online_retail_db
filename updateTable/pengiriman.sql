@@ -1,0 +1,17 @@
+UPDATE PENGIRIMAN
+SET
+    ALAMAT = 'jl. kenangan'
+WHERE
+    ID = 1;
+
+UPDATE PENGIRIMAN
+SET
+    ALAMAT = 'jl. rindu'
+WHERE
+    ID = 2;
+
+UPDATE PENGIRIMAN
+SET
+    METODE_PENGIRIMAN = 'ninja'
+WHERE
+    ID = 3;

@@ -1,0 +1,15 @@
+UPDATE PRODUK
+SET
+    STOK = 500,
+    HARGA = 200000,
+    KATEGORI_ID = 2
+WHERE
+    ID = 1;
+
+UPDATE PRODUK
+SET
+    STOK = 450,
+    HARGA = 55000,
+    KATEGORI_ID = 1
+WHERE
+    ID = 3;

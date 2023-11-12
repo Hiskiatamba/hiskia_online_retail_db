@@ -1,0 +1,5 @@
+UPDATE PESANAN
+SET
+    STATUS = 'Canceled'
+WHERE
+    ID = 2;
